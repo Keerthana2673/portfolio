@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="logo">
+            <a href="#">Keerthana's Portfolio</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Header -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am a web developer with a passion for creating beautiful and functional websites.</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Hi, my name is Keerthana and I am a web developer based in Chennai City. I have a passion for creating beautiful and functional websites that provide a great user experience. I have experience in HTML, CSS, JavaScript, and various web development frameworks.</p>
+            <p>When I'm not coding, I enjoy hiking, playing guitar, and trying out new restaurants in the city.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>My Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <img src="images/web-design.png" alt="Web Design Icon">
+                <h3>Web Design</h3>
+                <p>I can create beautiful and functional designs for your website that will provide a great user experience.</p>
+            </div>
+            <div class="service">
+                <img src="images/web-development.png" alt="Web Development Icon">
+                <h3>Web Development</h3>
+                <p>I can develop your website using HTML, CSS, JavaScript, and various web development frameworks.</p>
+            </div>
+            <div class="service">
+                <img src="images/seo.png" alt="SEO Icon">
+                <h3>SEO</h3>
+                <p>I can optimize your website for search engines to improve your online visibility and attract more visitors.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="images/portfolio-1.jpg" alt="Portfolio Item">
+                <div class="overlay">
+                    <h3>Collaborative Key Management Protocol in CP-ABE for Cloud Data Sharing</h3>
+                    <p>enhance security and efficiency of key management in cloud data sharing system.</p>
+                    <a href="#" class="cta-button">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/portfolio-2.jpg" alt="Portfolio Item">
+                <div class="overlay">
+                    <h3>Graphical Password Authentication</h3>
+                    <p>a multiple graphical password authentication methods to ensure user-friendliness, reliability, accuracy, and resistance to attacks that are susceptible to graphical passwords like Shoulder Surfing Attacks, Social Engineering Attacks, Spyware Attacks, Guessing and Dictionary Attacks.</p>
+                    <a href="#" class="cta-button">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/portfolio-3.jpg" alt="Portfolio Item">
+                <div class="overlay">
+                    <h3>ReefVista</h3>
+                    <p>advanced deep learning-based techniques tailored for the monitoring of coral reefs and the enhancement of underwater imagery.</p>
+                    <a href="#" class="cta-button">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
